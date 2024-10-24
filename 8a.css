@@ -1,0 +1,75 @@
+*{
+    margin: 0;
+}
+body{
+    background-color: rgb(253, 243, 243);
+}
+.box{
+    display: inline-block;
+}
+.image{
+    height:200px;
+    width: auto;
+    border-radius: 20px;
+}
+.off{
+    font-size: 30px;
+    color: white;
+    background-color: rgba(153, 0, 0, 0.6);
+    position: absolute;
+    bottom: 20px;
+}
+.image_off{
+    position: relative;
+}
+.name{
+    font-size: 20px;
+    font-weight: bolder;
+    display: inline-block;
+}
+.card:hover{
+    border-color: white;
+    background-color: white;
+}
+.card{
+
+    display: inline-block;
+    margin-left: 10px;
+    margin-top: 10px;
+    border: 5px solid white;
+    cursor: pointer;
+    background-color: rgb(253, 243, 243);
+}
+.name_rating , .offer_price ,.location_distance{
+    position: relative;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.rating{
+    background-color: green;
+    color: white;
+    height: 30px;
+    border-radius: 5px;
+    position: absolute;
+    right: 0;
+}
+.location{
+    display: inline-block;
+    color: #5A5A5A;
+}
+
+.price{
+    position: absolute;
+    right: 0;
+    display: inline-block;
+    color: #5A5A5A;
+}
+.distance{
+    position: absolute;
+    right: 0;
+    display: inline-block;
+    font-size: smaller;
+}
+.offer{
+    color: #5A5A5A;
+}
